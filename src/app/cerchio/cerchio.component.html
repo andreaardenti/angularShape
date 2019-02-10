@@ -1,0 +1,36 @@
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm">
+            <div></div>
+        </div>
+        <div class="col-sm">
+            <div class="circle"></div>
+        </div>
+        <div class="col-sm">
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm">
+            <input [(ngModel)]="value" placeholder="inserisci il valore">        
+        </div>
+
+        <div class="col-sm">
+            <p> Area del cerchio: <br> <span class="badge badge-warning">{{ getArea() }}</span></p> 
+        </div>
+        <div class="col-sm">
+            <p> Perimetro del cerchio: <br> <span class="badge badge-warning">{{ getPerimeter() }}</span></p> 
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+

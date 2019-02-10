@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.circle {
+	border-radius: 50%;
+	width: 100px;
+  height: 100px; 
+  margin: 4rem;
+  background: aquamarine
+	/* width and height can be anything, as long as they're equal */
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid aquamarine;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: aquamarine;
+}

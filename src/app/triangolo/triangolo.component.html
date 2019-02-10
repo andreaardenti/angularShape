@@ -1,0 +1,28 @@
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm">
+            <div></div>
+        </div>
+        <div class="col-sm">
+            <div class="triangle"></div>
+        </div>
+        <div class="col-sm">
+            <div class="triangle"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm">
+            <input [(ngModel)]="lato1" placeholder="inserisci il lato 1"> 
+            <input [(ngModel)]="lato2" placeholder="inserisci il lato 2">
+        </div>
+
+        <div class="col-sm">
+            <p> Area del triangolo: <br> <span class="badge badge-warning">{{ getArea() }}</span></p> 
+        </div>
+        <div class="col-sm">
+            <p> Perimetro del triangolo: <br> <span class="badge badge-warning">{{ getPerimeter() }}</span></p> 
+        </div>
+    </div>
+</div>
